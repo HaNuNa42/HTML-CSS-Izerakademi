@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS text</title>
+    <style>
+      h1{
+          text-align: center;
+          text-decoration: overline;
+          letter-spacing: 10px; /* harf aralarını açmak için*/
+          word-spacing: 10px; /*kelimeler arası boşluk*/
+          text-shadow: 2px 2px 2px red;
+      }
+      h2{
+          text-align: left;
+          text-decoration: line-through;
+          letter-spacing: 10px;
+          word-spacing: 15px;
+          text-shadow: 2px 2px 2px blue;
+      }
+      h3{
+
+          text-align: right;
+          text-decoration: underline;
+          letter-spacing: 10px;
+      }
+      div{
+          border: 1px solid black;
+          padding: 10px;
+          width: 200px;
+          height: 200px;
+          text-align: justify;
+      }
+      p.paragraph1{
+          direction: rtl; /*yazı yönü*/
+          unicode-bidi: bidi-override; /*harf yönü*/
+      }
+      img.top{
+        vertical-align: top;
+      }
+    
+      img.middle{
+        vertical-align: middle;
+      }
+    
+      img.bottom{
+        vertical-align: bottom;
+      }
+      p.uppercase{
+          text-transform: uppercase;
+      }
+      p.lowercase{
+          text-transform: lowercase;
+      }
+      p.capitalize{
+          text-transform: capitalize;
+      }
+      p{
+          text-indent: 50px;
+      }
+      p.small{
+        line-height: 0.7;
+      }
+      p.big{
+        line-height: 1.8;
+      }
+    </style>
+</head>
+<body>
+<h1>Hello world</h1>
+<h2>Hello world</h2>
+<h3>Hello world</h3>
+
+<div>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, 
+    adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini 
+    alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır.</div>
+
+<p class="paragraph1">Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, 
+    adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini 
+    alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır.</p>
+
+<p>Lorem
+    <img src="2.jpg" 
+    width="50px"
+    height="50px"
+    alt="çiçek"
+    class="top">Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir
+</p>
+<p>Lorem
+    <img src="2.jpg" 
+    width="50px"
+    height="50px"
+    alt="çiçek"
+    class="middle">Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir
+</p>
+<p>Lorem
+    <img src="2.jpg" 
+    width="50px"
+    height="50px"
+    alt="çiçek"
+    class="bottom">Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir
+</p>
+
+<h1>Hello world</h1>
+<h2>Hello world</h2>
+<h3>Hello world</h3>
+
+<p class="uppercase">Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, 
+    adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini 
+    alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır.</p>
+
+<p class="lowercase">Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, 
+    adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini 
+    alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır.</p>
+
+<p class="capitalize">Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, 
+    adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini 
+    alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır.</p>
+
+
+<p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, 
+    adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini 
+    alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır.</p>
+
+<p class="small">Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, <br>
+    adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini <br>
+</p>
+
+<p class="big">Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, <br>
+    adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini <br>
+    </p>
+
+
+
+</body>
+</html>

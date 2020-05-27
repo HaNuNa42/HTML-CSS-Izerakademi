@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Intro Css</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+
+        h1{
+            color: white;
+            text-align: center;
+        }
+        p{
+            font-family: Verdana;
+            font-size: 20px;
+            
+        }
+        #paragraph1{  /*paragrafa özel olarak değişiklilker tanımlamak için */
+            text-align: center;
+            color: red;
+        }
+        .center {
+            text-align: center;
+            color: blue;
+        }
+
+        *{ /* özellik belirtilmeyen tüm taglarda değişiklik yapmak istenirse * ile özellik ekleyebiliriz.*/
+            text-align: center;
+            color: fuchsia;
+        }
+
+        h1,p{
+            text-align: center;
+            color: red;
+        }
+
+        p.large{
+            font-size: 300%;
+        }
+        
+        </style>
+</head>
+<body>
+<h1>my first css example</h1>
+<h1>my first css example</h1>
+<p>this is a paragraph.</p>
+<p id="paragraph1"> this is a paragraph</p>
+<p class="center"> this is a paragraph </p>
+<p class="center large"> this is a paragraph </p>
+</body>
+</html>
