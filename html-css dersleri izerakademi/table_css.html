@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Table Css</title>
+    <style>
+      #customers{
+          font-family: Arial;
+          border-collapse: collapse;
+          width: 100%;
+      }
+      #customers td, #customers th{
+          border: 1px solid #ddd;
+          padding: 8px;
+      }
+      #customers tr:nth-child(even){background-color: #f2f2f2;}  /*tabloyu çift olarak çizgi eklemek için*/
+      #customers tr:hover {background-color: #ddd;}
+      #customers th{
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: left;
+          background-color: #4caf50;
+          color: white;
+      }
+
+
+    </style>
+</head>
+<body>
+<table id="customers">
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>City</th>
+    </tr>
+    <tr>
+        <td>Hatice</td>
+        <td>Nur</td>
+        <td>Bartın</td>
+    </tr>
+    <tr>
+        <td>Ömer</td>
+        <td>Yavaş</td>
+        <td>Konya</td>
+    </tr>
+    <tr>
+        <td>Emine</td>
+        <td>Dönmez</td>
+        <td>Ankara</td>
+    </tr>
+    <tr>
+        <td>Ayşe</td>
+        <td>İlayda</td>
+        <td>İstanbul</td>
+    </tr>
+    <tr>
+        <td>Elif</td>
+        <td>Türk</td>
+        <td>Batman</td>
+    </tr>
+</table>
+</body>
+</html>
